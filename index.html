@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yummy Cafe</title>
+    <link rel="stylesheet" href="yummy_cafe.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>🍽️ Yummy Cafe</h1>
+        </div>
+        <div class="contact-info">
+          <p>
+            📍 Near Post Office, Railway Station Road, Sohagpur, Madhya Pradesh,
+            461771
+          </p>
+          <p>📞 9302085044, 7999820957 | 📱 WhatsApp: 9302085044</p>
+          <p>📸 Instagram: @yummycafe4u</p>
+        </div>
+        <nav>
+          <a href="#menu">Menu</a>
+          <a href="#delivery">Delivery</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h2>Delicious Food, Happy Mood!</h2>
+        <p>Welcome to Yummy Cafe - where every bite tells a story!</p>
+        <a href="#menu" class="btn">View Menu</a>
+        <a href="#delivery" class="btn">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Menu 📋</h2>
+        </div>
+
+        <div class="category-tabs" id="category-tabs">
+          <button class="category-btn active" data-category="all">All</button>
+          <button class="category-btn" data-category="french-fries">
+            French Fries 🍟
+          </button>
+          <button class="category-btn" data-category="momos">Momos 🥟</button>
+          <button class="category-btn" data-category="pasta">Pasta 🍝</button>
+          <button class="category-btn" data-category="sweet-corn">
+            Sweet Corn 🌽
+          </button>
+          <button class="category-btn" data-category="maggie">Maggie 🍜</button>
+          <button class="category-btn" data-category="pizza">Pizza 🍕</button>
+          <button class="category-btn" data-category="potato-twister">
+            Potato Twister 🥔
+          </button>
+          <button class="category-btn" data-category="sandwich">
+            Sandwich 🥪
+          </button>
+          <button class="category-btn" data-category="burger">Burger 🍔</button>
+          <button class="category-btn" data-category="chinese">
+            Chinese 🥡
+          </button>
+          <button class="category-btn" data-category="noodles">
+            Noodles 🍜
+          </button>
+          <button class="category-btn" data-category="patties">
+            Patties 🥮
+          </button>
+          <button class="category-btn" data-category="fried-rice">
+            Fried Rice 🍚
+          </button>
+        </div>
+
+        <div class="menu-items" id="menu-items">
+          <!-- Menu items will be loaded here via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Delivery Section -->
+    <section class="delivery-section" id="delivery">
+      <div class="container">
+        <div class="section-title">
+          <h2>Home Delivery 🛵</h2>
+        </div>
+
+        <div class="delivery-content">
+          <div class="delivery-info">
+            <h3>Parcel Charges:</h3>
+            <p>🍕 <strong>Pizza Packing:</strong> Rs 10</p>
+            <p>📦 <strong>Other Packing Charge:</strong> Rs 5</p>
+            <br />
+            <p>For delivery, contact us at:</p>
+            <p>📞 9302085044 or 7999820957</p>
+            <br />
+            <a href="tel:9302085044" class="btn">Call Us Now</a>
+          </div>
+
+          <div class="delivery-image">🛵</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-title">
+          <h2>What Our Customers Say 💬</h2>
+        </div>
+
+        <div class="testimonial-slider">
+          <div class="testimonial-slides" id="testimonial-slides">
+            <div class="testimonial-slide">
+              <p class="testimonial-text">
+                "The best momos in town! I always order the Kurkure Momos,
+                they're absolutely delicious. Fast delivery too!"
+              </p>
+              <p class="testimonial-author">- Rahul S.</p>
+            </div>
+            <div class="testimonial-slide">
+              <p class="testimonial-text">
+                "Yummy Cafe's pizzas are amazing! My family loves the YC Special
+                Pizza. Great value for money!"
+              </p>
+              <p class="testimonial-author">- Priya M.</p>
+            </div>
+            <div class="testimonial-slide">
+              <p class="testimonial-text">
+                "The Veg Paneer Cheese Maggie is my comfort food. I order it at
+                least twice a week. Yummy Cafe never disappoints!"
+              </p>
+              <p class="testimonial-author">- Amit K.</p>
+            </div>
+          </div>
+
+          <div class="slider-navigation" id="slider-dots">
+            <div class="slider-dot active" data-slide="0"></div>
+            <div class="slider-dot" data-slide="1"></div>
+            <div class="slider-dot" data-slide="2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>About Us</h3>
+            <p>
+              Yummy Cafe is a beloved restaurant in Sohagpur, serving delicious
+              food since 2020. We pride ourselves on quality ingredients and
+              amazing flavors.
+            </p>
+          </div>
+
+          <div class="footer-section" id="contact">
+            <h3>Contact Us</h3>
+            <p>📍 Near Post Office, Railway Station Road</p>
+            <p>Sohagpur, Madhya Pradesh, 461771</p>
+            <p>📞 9302085044, 7999820957</p>
+            <p>📱 WhatsApp: 9302085044</p>
+          </div>
+
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <p>Stay connected with us on social media</p>
+            <div class="social-icons">
+              <a
+                href="https://www.instagram.com/yummycafe4u"
+                class="social-icon"
+                target="_blank"
+                >📷</a
+              >
+              <a href="#" class="social-icon">📘</a>
+              <a href="#" class="social-icon">🐦</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2025 Yummy Cafe. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+        
+
+    <script src="yummy_cafe.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            function scrollWithDynamicOffset(targetId, extraOffset = 0) {
+                const target = document.querySelector(targetId);
+                const header = document.querySelector("header");
+        
+                if (target && header) {
+                    const headerHeight = header.offsetHeight;
+                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+                    const scrollToPosition = targetPosition - headerHeight - extraOffset;
+        
+                    window.scrollTo({
+                        top: scrollToPosition,
+                        behavior: "smooth"
+                    });
+                }
+            }
+        
+            document.querySelectorAll('a[href^="#"]').forEach(link => {
+                link.addEventListener("click", function (e) {
+                    const targetId = this.getAttribute("href");
+                    if (targetId.length > 1 && document.querySelector(targetId)) {
+                        e.preventDefault();
+                        scrollWithDynamicOffset(targetId, 0); // Set extraOffset to 40 if needed
+                    }
+                });
+            });
+        });
+        </script>
+        
+  </body>
+</html>
